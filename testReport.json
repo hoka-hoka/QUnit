@@ -1,0 +1,54 @@
+{
+  "modules": {
+    "": {
+      "name": "",
+      "tests": [
+        {
+          "name": "Тестирование асинхронного кода",
+          "testId": "28be75da",
+          "skip": false,
+          "module": "",
+          "previousFailure": false,
+          "log": [
+            {
+              "module": "",
+              "name": "Тестирование асинхронного кода",
+              "result": true,
+              "message": "ok",
+              "actual": true,
+              "testId": "28be75da",
+              "negative": false,
+              "runtime": 3,
+              "todo": false,
+              "expected": true
+            }
+          ],
+          "skipped": false,
+          "todo": false,
+          "failed": 0,
+          "passed": 1,
+          "total": 1,
+          "runtime": 4,
+          "assertions": [
+            {
+              "result": true,
+              "message": "ok"
+            }
+          ],
+          "source": "    at file:///C:/Users/semen/Desktop/web/Tests/src/tests.js:1:7"
+        }
+      ],
+      "failed": 0,
+      "passed": 1,
+      "runtime": 9,
+      "total": 1
+    }
+  },
+  "totalTests": 1,
+  "stats": {
+    "passed": 1,
+    "failed": 0,
+    "total": 1,
+    "runtime": 20
+  }
+}

@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./src/phant.js"
   },
   "author": "Semyon",
   "license": "ISC",
   "devDependencies": {
+    "node-qunit-phantomjs": "^2.1.1",
+    "node-qunit-puppeteer": "^2.0.3",
     "qunit": "^2.11.0",
     "typescript": "^3.9.7"
   }
