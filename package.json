@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./src/phant.js"
+    "test": "node ./src/phant.js",
+    "coverage": "nyc report --reporter=lcov --reporter=text-lcov > coverage.lcov && codecov"
   },
   "author": "Semyon",
   "license": "ISC",
   "devDependencies": {
+    "codecov": "^3.7.2",
     "node-qunit-phantomjs": "^2.1.1",
     "node-qunit-puppeteer": "^2.0.3",
+    "nyc": "^15.1.0",
     "qunit": "^2.11.0",
     "typescript": "^3.9.7"
   }

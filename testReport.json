@@ -18,7 +18,7 @@
               "actual": true,
               "testId": "28be75da",
               "negative": false,
-              "runtime": 9,
+              "runtime": 26,
               "todo": false,
               "expected": true
             }
@@ -28,7 +28,7 @@
           "failed": 0,
           "passed": 1,
           "total": 1,
-          "runtime": 12,
+          "runtime": 28,
           "assertions": [
             {
               "result": true,
@@ -40,7 +40,7 @@
       ],
       "failed": 0,
       "passed": 1,
-      "runtime": 24,
+      "runtime": 48,
       "total": 1
     }
   },
@@ -49,6 +49,6 @@
     "passed": 1,
     "failed": 0,
     "total": 1,
-    "runtime": 77
+    "runtime": 348
   }
 }
